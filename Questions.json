@@ -1,0 +1,98 @@
+[
+
+    {
+        "title": "why we use < br > Element?",
+        "answer_1":"to make the text Bold",
+        "answer_2":"to Add breakline",
+        "answer_3":"to make the text smaller",
+        "answer_4":"to make Horizental Line",
+        "right_answer":"to Add breakline"
+    },
+    {
+        "title": "why we use <hr> Element",
+        "answer_1":"to make the text Bold",
+        "answer_2":"to Add breakline",
+        "answer_3":"to Space between sections",
+        "answer_4":" Answer  1 and 2 is right ",
+        "right_answer":"to Space between sections"
+    },
+    {
+        "title": "is <img> element has attribute href",
+        "answer_1":"yes",
+        "answer_2":"no its <a> element",
+        "answer_3":"All element has it",
+        "right_answer":"no its <a> element"
+    },
+    {
+        "title": "why we use <hr> Element",
+        "answer_1":"to make the text Bold",
+        "answer_2":"to Add breakline",
+        "answer_3":"to Space between sections",
+        "answer_4":" Answer  1 and 2 is right ",
+        "right_answer":"to Space between sections"
+    },{
+        "title": "why we use <br> Element?",
+        "answer_1":"to make the text Bold",
+        "answer_2":"to Add breakline",
+        "answer_3":"to make the text smaller",
+        "answer_4":"to make Horizental Line",
+        "right_answer":"to Add breakline"
+    },
+    {
+        "title": "why we use <hr> Element",
+        "answer_1":"to make the text Bold",
+        "answer_2":"to Add breakline",
+        "answer_3":"to Space between sections",
+        "answer_4":" Answer  1 and 2 is right ",
+        "right_answer":"to Space between sections"
+    },
+    {
+        "title": "is <img> element has attribute href",
+        "answer_1":"yes",
+        "answer_2":"no its <a> element",
+        "answer_3":"All element has it",
+        "right_answer":"no its <a> element"
+    },
+    {
+        "title": "why we use <hr> Element",
+        "answer_1":"to make the text Bold",
+        "answer_2":"to Add breakline",
+        "answer_3":"to Space between sections",
+        "answer_4":" Answer  1 and 2 is right ",
+        "right_answer":"to Space between sections"
+    },{
+        "title": "why we use <br> Element?",
+        "answer_1":"to make the text Bold",
+        "answer_2":"to Add breakline",
+        "answer_3":"to make the text smaller",
+        "answer_4":"to make Horizental Line",
+        "right_answer":"to Add breakline"
+    },
+    {
+        "title": "why we use <hr> Element",
+        "answer_1":"to make the text Bold",
+        "answer_2":"to Add breakline",
+        "answer_3":"to Space between sections",
+        "answer_4":" Answer  1 and 2 is right ",
+        "right_answer":"to Space between sections"
+    },
+    {
+        "title": "is <img> element has attribute href",
+        "answer_1":"yes",
+        "answer_2":"no its <a> element",
+        "answer_3":"All element has it",
+        "right_answer":"no its <a> element"
+    },
+    {
+        "title": "why we use <hr> Element",
+        "answer_1":"to make the text Bold",
+        "answer_2":"to Add breakline",
+        "answer_3":"to Space between sections",
+        "answer_4":" Answer  1 and 2 is right ",
+        "right_answer":"to Space between sections"
+    }
+
+
+
+
+]

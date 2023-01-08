@@ -1,0 +1,59 @@
+
+@media (max-width:768px){ 
+  
+    .boxs{
+        grid-template-columns:100%
+        
+    }
+    .boxs div{
+        text-align: center;
+    }
+    .p-img{
+        display: none;
+    }
+    .tickets{
+        grid-template-columns: 1fr;}
+        .tickets>div{
+
+        }
+        button{
+            width: 100%;
+        }
+        
+}
+
+
+@media (max-width:450px) {
+    .boxs div{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        margin-top: .7rem;
+        width: 100%;
+    }
+    .p-img{
+        display: none;
+    }
+    .user{
+        flex-direction: column;
+
+    }
+    .user-img{
+        width: 40%;
+        margin: auto;
+    }.user-img img {
+        width: 2.5rem;
+        height: 2.5rem;
+    }.reacts{
+        flex-direction: row;
+
+    }
+    .love ,.comments{
+        width: 50%!important;
+        display: inline-block!important;
+
+    }
+    }
+

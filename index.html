@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Dashboard</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/all.min.css" />
+
+    <!-- <link rel="stylesheet" href="css/bootstrap.min.css" /> -->
+    <link rel="stylesheet" href="css/mystyle.css"/>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/mobile.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  </head>
+  <body >
+     <div class="page d-flex gap-1">
+        <div class="sideBar ">
+
+          <h3 class="text-center">Admin</h3>
+
+          <div class="list  ">
+          <ul>
+            <li class="active">
+              <i class="fa-solid fa-bars-staggered"></i>
+              <a href="index.html">
+                Dashboard
+              </a>
+            </li>
+            <li>
+              <i class="fa-solid fa-gear"></i>
+                <a href="settings.html">
+                settings
+              </a>
+            </li>
+            <li>
+              <i class="fa-solid fa-user"></i>
+              <a href="profile.html">
+                profile
+              </a>
+            </li>
+            <li>
+              <i class="fa-solid fa-sitemap"></i>
+              <a href="projects.html">
+                projects
+              </a>
+            </li>
+            <li>
+              <i class="fa-solid fa-circle-radiation"></i>
+              <a href="courses.html">
+                courses
+              </a>
+            </li>
+            <li>
+              <i class="fa-solid fa-users"></i>
+              <a href="friends.html">
+                friends
+              </a>
+            </li>
+            <li>
+              <i class="fa-regular fa-file"></i>
+              <a href="files.html">
+                files
+              </a>
+            </li>
+            <li>
+              <i class="fa-solid fa-map"></i>
+              <a href="plans.html">
+                plans
+              </a>
+            </li>
+
+          </ul>
+
+          </div>
+        </div>  
+        <!-- End Side-bar -->
+     
+     
+       
+           <div class="content">
+            <div class="search-bar">
+              
+              <div class="input">
+                <input type="text" placeholder="      Type A keyword"> 
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </div>
+              <div class="notify">
+               
+                  
+                  <div class="notify-icon">
+                    <i class="fa-regular fa-bell"></i>
+                  </div>
+                  <div class="user-icon">
+                    <img src="img/profile-img.png" class="imgg" alt="">  
+                   </div> 
+              </div>
+                
+                    
+
+                
+            </div>
+
+            <!-- End search-bar -->
+            
+            <div class="page-title">
+              <h1>Dashboard</h1>
+
+            </div>
+            
+            <div class="boxs d-grid">
+      
+              <div class="welcome box p-7">
+                    <div class="welcom d-flex space-between">
+                        <div class="text w-50 p-7 ">
+                            <h2>welcome</h2>
+                            <p>Admin</p>
+                            <img src="img/profile-img.png" class="absolute p-img" alt="">
+                          </div>
+                          <div class="pic w-50 p-7">
+                            <img src="img/welcome.png" class="w-100" alt="">
+                          </div>
+                      </div>
+                      <div class="free">
+                        
+                      </div>
+                      <div class="info d-flex p-7" >
+                        <div class="name">
+                            <h5>Admin</h5>
+                            <p>Developer</p>
+                        </div>
+                        <div class="name">
+                          <h5>80</h5>
+                          <p>project</p>
+                      </div>
+                      <div class="name">
+                        <h5>$100000</h5>
+                        <p>Earned</p>
+                    </div>
+
+                      </div>
+                      <button class="S-P">profile</button>
+
+
+              </div>
+              <div class="Draft box p-7">
+                <div class="text w-100 p-7 ">
+                  <h2>Quick Draft</h2>
+                  <p>Write a drafts for yuor ideas</p>
+                </div>
+                <div class="inputs">
+                  <input type="text" placeholder="Title" class="input-title">
+                  <textarea type="text" placeholder="Your thouts" class="input-area">
+                  </textarea>
+                  </div>
+                  <button class="S-P">Save</button>
+
+                </div>
+                <div class="box p-7">
+                  <div class="text w-100 p-7 ">
+                    <h2>Yearly Target</h2>
+                    <p>target of the year</p>
+                  </div>
+                  <div class="targets d-flex flex-col">
+                      <div class="money">
+                        <div class="icon">
+                          <i class="fa-solid fa-dollar-sign"></i>
+                        </div>
+                        <div class=" progress w-100">
+                          <h4>Money</h4>
+                          <p>$60000</p>
+                            <div class="money-progress"> 
+                              <div class="inner-pro"></div>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="code">
+                        <div class="icon">
+                          <i class="fa-solid fa-code"></i>  
+                        </div>                     
+                        <div class=" progress w-100">
+                          <h4>Projects</h4>
+                          <p>30</p>
+                          <div class="code-progress">
+                            <div class="inner-pro"></div>
+
+                          </div>
+                        </div>
+                      </div>
+                      <div class="user">
+                        <div class="icon">
+                          <i class="fa-solid fa-user"></i> 
+                        </div>                     
+                        <div class=" progress w-100">
+                          <h4>Team</h4>
+                          <p>25</p>
+                          <div  class="user-progress">
+                            <div class="inner-pro"></div>
+
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+                  </div>
+                  <div class="box p-7">
+                    <div class="text w-100 p-7 ">
+                      <h2>Tickets Statistics</h2>
+                      <p>Every thing about support tickets</p>
+                    </div>
+                    
+                    <div class="tickets d-grid">
+                      <div class="news">
+                        <i class="fa-solid fa-newspaper"></i>
+                        <h4>2500</h4>
+                        <p>Total</p>
+                      </div>
+                      <div class="loading">
+                        <i class="fa-solid fa-spinner"></i>
+                        <h4>500</h4>
+                        <p>Pending</p>
+                      </div>
+                      <div class="tick">
+                        <i class="fa-regular fa-circle-check"></i>
+                        <h4>1900</h4>
+                        <p>closed</p>
+                      </div>
+                      <div class="delet">
+                        <i class="fa-solid fa-xmark"></i>                        <h4>200</h4>
+                        <p>Deleted</p>  
+                      </div>
+                    </div>
+
+
+                  </div>
+                  <div class="box p-7">
+                    <div class="text w-100 p-7 ">
+                      <h2>latest news</h2>
+                    </div>   
+                    <div class="latest-news ">
+                      <div class="new d-flex gap ">
+                          <div class="img-news ">
+                            <img src="img/1.png" alt="">
+                          </div>
+                          <div class="text-news">
+                            <h5>Responsive Design</h5>
+                            <p>Lorem ipsum dolor sitr.</p>
+                          </div>
+                          <div class="rel-time">
+                            <p>5 hours </p>
+
+                          </div>
+                      </div>
+                      <div class="new">
+                          <div class="img-news">
+                            <img src="img/3.png" alt="">
+                            
+                          </div>
+                          <div class="text-news">
+                            <h5>the latest of  designs</h5>
+                            <p>Lorem ipsum dolor sit .</p>
+                          </div>
+                          <div class="rel-time">
+                            <p>1 day ago</p>
+                          </div>
+                      </div>
+                      <div class="new">
+                          <div class="img-news">
+                            <img src="img/3.png" alt="">
+
+                          </div>
+                          <div class="text-news">
+                            <h5>created Sass Extention</h5>
+                            <p>New Sass examples</p>
+                          </div>
+                          <div class="rel-time">
+                            <p>3 days ago</p>
+
+                          </div>
+                      </div>
+                      <div class="new">
+                          <div class="img-news">
+                            <img src="img/1.png" alt="">
+
+                            
+                          </div>
+                          <div class="text-news">
+                            <h5>new Websites designs</h5>
+                            <p>Lorem ipsum dolor sit 
+                              .</p>
+                          </div>
+                          <div class="rel-time">
+                            <p>1 week </p>
+
+                          </div>
+                      </div>
+                    </div>
+
+
+                  
+                  
+                  
+                  
+                  </div>
+                <div class="box p-7">
+                  <div class="text w-100 p-7 ">
+                    <h2>Latest Tasks</h2>
+                  </div>          
+                  <div class="tasks">
+
+                      <div class="task">
+                        <div class="task-text">
+                          <h4>study three css lessons</h4>
+                          <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                        <div class="trash-icon">
+                          <i class="fa-solid fa-trash-can"></i>
+                        </div>
+                      </div>
+                      <div class="task">
+                        <div class="task-text">
+                          <h4>study three css lessons</h4>
+                          <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                        <div class="trash-icon">
+                          <i class="fa-solid fa-trash-can"></i>
+                        </div>
+                      </div>
+                      <div class="task">
+                        <div class="task-text">
+                          <h4>study three css lessons</h4>
+                          <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                        <div class="trash-icon">
+                          <i class="fa-solid fa-trash-can"></i>
+                        </div>
+                      </div>
+                      <div class="task fineshed-tasks">
+                        <div class="task-text">
+                          <h4>study three css lessons</h4>
+                          <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                        <div class="trash-icon">
+                          <i class="fa-solid fa-trash-can"></i>
+                        </div>
+                      </div>
+                      <div class="task">
+                        <div class="task-text">
+                          <h4>study three css lessons</h4>
+                          <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                        <div class="trash-icon">
+                          <i class="fa-solid fa-trash-can"></i>
+                        </div>
+                      </div>
+
+                  </div> 
+                
+                
+                
+                </div>
+                <div class="box ">
+                  <div class="text w-100 p-7 ">
+                    <h2>reminders</h2>
+                  </div> 
+                  <div class="reminders p-7">
+                    <div class="note0">
+                        <h4>check my list</h4>
+                        <p>1/1/2023 - 1.45 pm</p>
+                      </div>
+                      <div class="note1">
+                        <h4>call clients</h4>
+                        <p>1/1/2023 - 1.45 pm</p>
+                      </div>
+                      <div class="note2">
+                        <h4>study more and more</h4>
+                        <p>1/1/2023 - 1.45 pm</p>
+                      </div>
+                      <div class="note3">
+                        <h4>finish priojects</h4>
+                        <p>1/1/2023 - 1.45 pm</p>
+                      </div>
+                  </div>
+                </div>
+                <div class="box ">
+                  <div class="text w-100 p-7 ">
+                    <h2>Latest post</h2>
+                  </div> 
+                  <div class="user d-flex p-7 w-100 border-bottom">
+                    <div class="user-img ">
+                        <img src="img/profile-img.png" alt="">
+                    </div>
+                    <div class="user-name">
+                      <h4>Admin</h4>
+                      <p>About 3 hours ago</p>
+                    </div>
+                   
+                  </div>
+                  <div class="post p-7 border-bottom">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut fugiat magni eius eligendi? Magnam dolore esse quos asperiores magni iste.</p>
+                  </div>
+                  <div class="reacts d-flex w-100 p-7">
+                      <div class="love d-flex gap">
+                        <i class="fa-regular fa-heart"></i>
+                        <p>24k</p>
+                      </div>
+                      <div class="comments d-flex gap ">
+                        <i class="fa-regular fa-comments"></i> <p>2.5k</p>
+                      </div>
+                  </div>
+
+                </div>
+                <div class="box ">
+                  <div class="text w-100 p-7 ">
+                    <h2>social media states</h2>
+                  </div> 
+                  <div class="social">
+                      <div class="twitter">
+                        <div class="icon ">
+                          <i class="fa-brands fa-twitter fa-2x"></i>
+                        
+                        
+                      </div>
+                      <div class="likes">
+                        <p>50k Followers</p>
+                      </div>
+                        <div class="action">
+                          <button>Follow</button>
+                        </div>
+                      </div>
+                      <div class="facbook">
+                        <div class="icon">
+                          <i class="fa-brands fa-facebook-f fa-2x"></i>                     
+                                    </div>
+                                    <div class="likes">
+                                      <p>2M like</p>
+                                    </div>
+                        <div class="action">
+                          <button>like</button>
+                        </div>
+                      </div>
+                      <div class="youtube">
+                        <div class="icon">
+                          <i class="fa-brands fa-youtube fa-2x"></i>
+                        </div>
+                        <div class="likes">
+                          <p>2M SUbs</p>
+                        </div>
+                        <div class="action">
+                          <button>subscribe</button>
+                        </div>
+                      </div>
+                      <div class="linkedin">
+                        <div class="icon">
+                          <i class="fa-brands fa-linkedin fa-2x "></i>  
+                                              </div>
+                                              <div class="likes">
+                                                <p>2M Followers</p>
+                                              </div>
+                        <div class="action">
+                          <button>follow</button>
+                        </div>
+                      </div>
+
+                  </div>
+                </div>
+      
+            </div>
+
+            <div class="projects box">
+              <div class="text w-100 p-7 ">
+                <h2>projects</h2>
+              </div> 
+              <div class="p-table">
+                <table>
+                  <thead>
+                    <tr>
+                    <td>Name</td>
+                    <td>Finish Date</td>
+                    <td>Client</td>
+                    <td>Price</td>
+                    <td>Team</td>
+                    <td>Status</td>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>ministry Data</td>
+                      <td> 25 jun 2023</td>
+                      <td>ministry</td>
+                      <td>$23000</td>
+                      <td>
+                        <img src="img/11.jpg" alt="">
+                        <img src="img/22.jpg" alt="">
+                        <img src="img/33.jpg" alt="">
+                        <img src="img/22.jpg" alt="">
+                       
+                      </td>
+                      <td><span class="status4">Fineshed</span></td>
+                      </tr>
+                    <tr>
+                      <td>Smart home</td>
+                      <td> 15 of Aug 2023</td>
+                      <td> Sara </td>
+                      <td>$88000</td>
+                      <td>
+                        <img src="img/11.jpg" alt="">
+                        <img src="img/22.jpg" alt="">
+                        <img src="img/33.jpg" alt="">
+                       
+                      </td>
+                      <td><span class="status2">Pending</span></td>
+                      </tr>
+                    <tr>
+                      <td>ministry Data</td>
+                      <td> 25 jun 2023</td>
+                      <td>NADER</td>
+                      <td>$23000</td>
+                      <td>
+                        <img src="img/33.jpg" alt="">
+                        <img src="img/22.jpg" alt="">
+                        <img src="img/11.jpg" alt="">
+                       
+                      </td>
+                      <td><span class="status3">working on..</span></td>
+                      </tr>
+                    <tr>
+                      <td>Smart home</td>
+                      <td> 15 of Aug 2023</td>
+                      <td> Smart club </td>
+                      <td>$88000</td>
+                      <td>
+                        <img src="img/22.jpg" alt="">
+                        <img src="img/33.jpg" alt="">
+                        <img src="img/22.jpg" alt="">
+                        <img src="img/33.jpg" alt="">
+                        <img src="img/22.jpg" alt="">
+                        <img src="img/11.jpg" alt="">
+                        
+                      </td>
+                      <td><span class="status2">Pending</span></td>
+                      </tr>
+                    <tr>
+                      <td>Smart home</td>
+                      <td> 15 of Aug 2023</td>
+                      <td> Smart club </td>
+                      <td>$88000</td>
+                      <td>
+                        <img src="img/22.jpg" alt="">
+                        <img src="img/33.jpg" alt="">
+                        <img src="img/22.jpg" alt="">
+                        <img src="img/33.jpg" alt="">
+                        <img src="img/22.jpg" alt="">
+                        <img src="img/11.jpg" alt="">
+                        
+                      </td>
+                      <td><span class="status1">upgrading</span></td>
+                      </tr>
+
+                  </tbody>
+                </table>
+              </div>
+            </div>
+      </div>
+
+
+       
+
+     
+
+
+
+
+
+
+
+
+
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
